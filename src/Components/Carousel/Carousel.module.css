@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+
+.carousel h1 {
+  font-size: 3vw;
+  margin-top: 3vw;
+  color: #2d3630;
+  text-align: center;
+  letter-spacing: 0.1vw;
+  font-family: "Fredoka One", cursive;
+}
+.image {
+  width: 40vw;
+  height: 27vw;
+  padding: 0.3vw;
+  border: 0.1vw solid #2d3630;
+  border-radius: 0.1vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.iconDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 42vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.icon {
+  font-size: 5vw;
+  padding: 1.5vw;
+  font-weight: bolder;
+  color: #ffffff;
+  background: #b1b1b1;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.icon:hover {
+  border: 0.1vw solid #2d3630;
+  background: transparent;
+  color: #2d3630;
+  transition: 0.2s ease-in-out;
+}
+.dotDiv {
+  display: flex;
+  justify-content: center;
+  gap: 0.5vw;
+  position: absolute;
+  top: 81.5%;
+  left: 66%;
+  transform: translate(-50%, -50%);
+}
+.dot {
+  width: 1vw;
+  height: 1vw;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 0.2vw solid orangered;
+}
+.circle {
+  font-size: 5vw;
+  color: black;
+}
+
+.block {
+  width: 1vw;
+  height: 1vw;
+  background: #2d3630;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.titleDiv {
+  width: 40vw;
+  height: 8vw;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 70.3%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.titleDiv .title {
+  text-align: center;
+  font-family: lato;
+  font-weight: bolder;
+  font-size: 3vw;
+  color: #ffffff;
+}
